@@ -1,0 +1,137 @@
+\usepackage{graphicx} 
+\usepackage{fullpage}
+\usepackage{multirow}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
+\usepackage{siunitx}
+\usepackage{physics}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{mathrsfs}
+\usepackage{silence}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{soul}
+\usepackage{listings}
+\usepackage{subcaption}
+\usepackage{dsfont}
+\usepackage{booktabs}
+\usepackage{xspace}
+\usepackage{cancel}
+\usepackage[justification=centering]{caption}
+\usepackage{tikz}
+\usetikzlibrary{3d}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.geometric}
+\usepackage{empheq}
+\usepackage{makecell}
+\usepackage[english]{babel}
+\usepackage{xr}
+\usepackage{titletoc}
+\usepackage{zref}
+\usepackage{algorithm}
+\usepackage[framed,numbered]{matlab-prettifier}
+\usepackage{algpseudocode}
+\usepackage{cleveref}
+\usepackage{chngcntr}
+\usepackage{starfont}
+\DeclareSymbolFont{starfontsym}{OT1}{stf}{m}{n}
+\DeclareMathSymbol{\mathsun}{\mathord}{starfontsym}{115}
+\DeclareMathSymbol{\mathmercury}{\mathord}{starfontsym}{102}
+\DeclareMathSymbol{\mathvenus}{\mathord}{starfontsym}{103}
+\DeclareMathSymbol{\mathterra}{\mathord}{starfontsym}{76}
+\DeclareMathSymbol{\mathmoon}{\mathord}{starfontsym}{97}
+\DeclareMathSymbol{\mathmars}{\mathord}{starfontsym}{104}
+\DeclareMathSymbol{\mathjupiter}{\mathord}{starfontsym}{106}
+\DeclareMathSymbol{\mathsaturn}{\mathord}{starfontsym}{83}
+\DeclareMathSymbol{\mathuranus}{\mathord}{starfontsym}{65}
+\DeclareMathSymbol{\mathneptune}{\mathord}{starfontsym}{71}
+\DeclareMathSymbol{\mathpluto}{\mathord}{starfontsym}{72}
+\newcommand{\sun}{\mathsun}
+\newcommand{\mercury}{\mathmercury}
+\newcommand{\venus}{\mathvenus}
+\newcommand{\terra}{\mathterra}
+\newcommand{\moon}{\mathmoon}
+\newcommand{\mars}{\mathmars}
+\newcommand{\jupiter}{\mathjupiter}
+\newcommand{\saturn}{\mathsaturn}
+\newcommand{\uranus}{\mathuranus}
+\newcommand{\neptune}{\mathneptune}
+\newcommand{\pluto}{\mathpluto}
+
+\usepackage[sort&compress,numbers]{natbib}
+\bibliographystyle{Bibliography/new-aiaa}
+
+%Commands
+\newcommand*\widefbox[1]{\fbox{\hspace{1em}#1\hspace{1em}}}
+\newcommand*\wwidefbox[1]{\fbox{\hspace{2em}#1\hspace{2em}}}
+\newcommand{\skipline}{\vspace{\baselineskip}}
+\newcommand{\dprime}{\prime\prime}
+\newcommand{\lc}{\left(}
+\newcommand{\rc}{\right)}
+\newcommand{\lb}{\left[}
+\newcommand{\rb}{\right]}
+\newcommand{\fdiff}[2][]{\frac{\prescript{#1}{}{\mathrm{d}}}{\mathrm{d} #2}} % Defines a command for a frame derivative
+\newcommand{\fddiff}[2][]{\frac{\prescript{#1}{}{\mathrm{d}^2}}{\mathrm{d} #2^2}} % Defines a command for a frame derivative
+\newcommand{\fvar}[2]{\prescript{#1}{}{#2}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\matlab}{\textsc{Matlab}\xspace}
+\newcommand{\ta}{\theta^*}
+\newcommand{\til}[1]{\tilde{#1}}
+\newcommand{\wtil}[1]{\widetilde{#1}}
+\allowdisplaybreaks
+\numberwithin{equation}{section}
+\renewcommand\lstlistlistingname{Code Listing}
+\renewcommand\lstlistingname{Code Snippet}
+\renewcommand\CancelColor{\color{red}}
+\def\lstlistingautorefname{Alg.}
+
+%% Rule under title
+%\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+%\MakeOuterQuote{"}
+
+%Array spacing
+\makeatletter
+\renewcommand*\env@matrix[1][\arraystretch]{%
+  \edef\arraystretch{#1}%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{*\c@MaxMatrixCols c}}
+\makeatother
+\sisetup{
+  round-mode = places,
+  round-precision = 4,
+  group-separator = {},
+  round-pad = false
+}
+%Managing package overlap
+\AtBeginDocument{\RenewCommandCopy\qty\quantity}
+\ExplSyntaxOn
+\msg_redirect_name:nnn { siunitx } { physics-pkg } { none }
+\ExplSyntaxOff
+
+%cref stuff
+\crefname{align}{Eq.}{Eqs.}
+\crefname{equation}{Eq.}{Eqs.}
+\crefname{figure}{Fig.}{Figs.}
+\crefname{table}{Table}{Tables}
+\crefname{theorem}{Theorem}{Theorems}
+\crefname{definition}{Definition}{Definitions}
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{assumption}{Assumption}{Assumptions}
+\crefname{proof}{Proof}{Proofs}
+\crefname{problem}{Problem}{Problems}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{section}{Section}{Sections}
+\crefname{listing}{Code listing}{Fode listings}
+%Math operators
+\DeclareMathOperator{\atantwo}{atan2}
+
+
+\WarningFilter*{latex}{Text page \thepage\space contains only floats}
