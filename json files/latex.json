@@ -1,0 +1,88 @@
+{
+"Label equation": {
+		"prefix": "LABELEQN",
+		"body": "\\label{eqn:$1}",
+		"description": "label equation"
+	},
+
+"Label figure": {
+		"prefix": "LABELFIG",
+		"body": "\\label{fig:$1}",
+		"description": "label figure"
+	},
+
+"cleveref": {
+	
+		"prefix": "CREF",
+		"body": "\\cref{$1}",
+		"description": "call reference"
+	},
+
+
+"aligned at bottom without pagebreaks": {
+		"prefix": "BALD",
+		"body": "\\begin{aligned}[b]\n\t$1$0\n\\end{aligned}",
+		"description": "aligned with bottom equations"
+	},
+
+"aligned with box around it"
+	: {
+		"prefix": "BEMPH",
+		"body": "\\begin{empheq}[box={\\fbox}]{align}\n\t$1$0\n\\end{empheq}",
+		"description": "align with box around it"
+	},
+
+"aligned with box around it (no label)"
+	: {
+		"prefix": "BSEMPH",
+		"body": "\\begin{empheq}[box={\\fbox}]{align*}\n\t$1$0\n\\end{empheq}",
+		"description": "align* with box around it"
+	},
+
+"SI units"
+	: {
+		"prefix": "SI",
+		"body": "\\SI{$1}{$2}$0",	
+		"description": "SI units"
+	},
+
+"2 figures side by side"
+	: {
+		"prefix": "B2FI",
+		"body": "\\begin{figure}[$1]\n\t\\centering\n\t\\begin{subfigure}[h!]{0.49\\textwidth}\n\t\t\\centering\n\t\t\\includegraphics[width=\\linewidth]{$2}\n\t\t\\caption{$3}\n\t\t\\label{}\n\t\\end{subfigure}\n\t\\begin{subfigure}[h!]{0.49\\textwidth}\n\t\t\\centering\n\t\t\\includegraphics[width=\\linewidth]{$4}\n\t\t\\caption{$5}\n\t\t\\label{}\n\t\\end{subfigure}\n\t\\caption{$6}\n\\end{figure}$0",
+		"description": "horizontal subfigures"
+	},
+
+"include graphics": {
+    "prefix": "INCW", 
+    "body": ["\\includegraphics[width = $1\\textwidth]{$2}$0"]
+},
+
+"noindent": {
+    "prefix": "NIND", 
+    "body": ["\\noindent"]
+},
+
+"indent": {
+    "prefix": "IND", 
+    "body": ["\\indent"]
+},
+
+"dollar math": {
+    "prefix": "dm", 
+    "body": ["\\$$1\\$ $0"]
+},
+
+"mathds font": {
+	"prefix": "MDS",
+	"body": ["\\mathds{$1}$0"]
+},
+
+"numbers": {
+    "prefix": "NUM", 
+    "body": ["\\num{$1} $0"]
+}
+
+}
+
+

@@ -24,3 +24,68 @@ From here, you can simply create TeX files in VSCode by ending a file with the \
     \caption{Where to find the output pdf and compile button in VSCode. Note that I moved the LaTeX workshop menu to the right sidebar in this picture, and have slightly modified the place where the output files go (more on this in a bit).}
     \label{fig:workspace}
 \end{figure}
+
+
+\newpage
+\subsection{Managing \LaTeX{} files locally}
+
+As can be noticed in \cref{fig:workspace}, there are a few files you probably haven't seen in your days using overleaf. These are the auxiliary files needed to compile the output PDF, and are produced on every compilation. While LaTeX workshop has a pretty tempting cleanup feature for these files, keeping them does help with compilation speed. As such, it is better to put them into some output folder to avoid clutter. The path to which the output and auxiliary files are sent can be edited throught the outdir setting for LaTeX Workshop on VSCode, which can be navigated to through the gear icon on the VSCode sidebar. In \cref{fig:outdir} is how I have set it up, where all output files are sent to an Output folder in the same path as \verb|main.tex|.
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width = 0.7\textwidth]{outdir.png}
+    \caption{Output directory setting}
+    \label{fig:outdir}
+\end{figure}
+
+Note that apart from this, I have also divided my latex document into individual files, which I am then inputting into the main file using \verb|\input{}|. Especially when dealing with local \LaTeX{}, this is preferred to \verb|\subfile{}| since the latter will make its own output folder and associated files for each subfile, bloating the project. 
+
+To make sure the compiler always compiles main, a magic comment on these inputted subfiles is prudent. Such a comment simply tells the compiler to set the root file to be the main file is. This is given by \verb|% !TeX root = <root file directory>|. The comment can also be inserted through the search bar as in \cref{fig:magic} (this method also gives a nifty drop down to select the root file).
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width = 0.5\textwidth]{magic}
+    \caption{Insert a magic comment}
+    \label{fig:magic}
+\end{figure}
+However, to use this comment, you must also disable forcing recipe usage by typing \texttt{"latex-workshop.latex.build.forceRecipeUsage": false,} into the settings.json or setting it in the settings tab.
+
+\newpage
+\subsection{Some useful features and tips for \LaTeX{} in VSCode}
+\begin{itemize}
+    \item Turn on word wrapping in the VSCode editor. This can be done exclusively for \LaTeX{} through the language specific settings as follows
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[width = 0.6\textwidth]{wrap}
+        \caption{Word wrapping settings}
+    \end{figure}
+    \item GitHub copilot is a useful extension for some menial typesetting tasks, and especially in my experience for building tikz diagrams. Get it for free with a student github account and download it from the VSCode extensions menu, just make sure to turn off the somewhat annoying inline suggestions. This, along with the former item can be done using the following lines in settings.json (can be accessed through the VSCode searchbar)
+    \begin{quote}
+        \texttt{      
+            "[latex]": } \{ \texttt{\\
+                "editor.inlineSuggest.enabled": false,\\
+                "editor.wordWrap": "on",\\
+            }\},
+    \end{quote}
+    Additionally, editor autocompletion using copilot AI can be turned off with \texttt{"github.copilot.editor.\\enableAutoCompletions": false,}. This way, copilot won't interfere with your typing, but can still be easily accessed through a single shortcut to help do boring/repetitive tasks.
+
+    \item LaTeX workshop supports snippets. There are several useful inbuilt ones such as \verb|BEQ| or \verb|BAL| to start equation or align environments, or \verb|@a| or \verb|@b| for greek letters like $\alpha,\beta$. A background on snippets is found on the workshop wiki at the url \url{https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets}. A concise list may also be found at \url{https://cheatography.com/jcwinkler/cheat-sheets/latex-workshop-visual-studio-code/}. You may also make custom snippets in VSCode for use by navigating to the snippets menu in the searchbar
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[width = 0.7\textwidth]{snipsnip.png}
+        \caption{Snippets menu in the searchbar}
+    \end{figure}
+    
+    \item 
+    Intellisense is LaTeX workshop's capability to autofill citations, commands, environments, labels, and file names. Intellisense usually updates on file save, but you can make it update more aggressively by setting \verb|latex-workshop.intellisense.update.aggressive.enabled| to \verb|true| in the settings menu.
+
+    \item 
+    Much like double clicking the PDF in Overleaf takes you to the corresponding line of TeX, Command/Control clicking text (depending on whether the OS is Mac or Windows) in the VSCode internal PDF viewer takes you to the corresponding line of TeX. While in the TeX file, pressing Cmd+Opt+J on Mac or Ctrl+Alt+J on Windows takes you to the point in the PDF corresponding to the cursor location on the TeX file. Note that this requires the SyncTeX file to be present in the same directory as the output PDF. This file is created on each compile, and is automatically stored in the proper directory to be used.
+
+    \item The smart clicks VSCode extension is pretty handy to select stuff in brackets. I highly recommend downloading it.
+    
+\end{itemize}
+
+\subsection{Keeping your project synced}
+The 
+
+Both my user settings json file and user generated snippets file are included in the GitHub of this project for further reference. Additionally, the entire \LaTeX{} file tree for this document is also on the GitHub repo.
+

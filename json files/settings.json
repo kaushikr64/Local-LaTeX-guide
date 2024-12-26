@@ -1,0 +1,117 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "window.newWindowDimensions": "inherit",
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt",
+        "language-julia.interrupt"
+    ],
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Tokyo Night",
+    "julia.symbolCacheDownload": true,
+    "cmake.showOptionsMovedNotification": false,
+    "julia.workspace.showModules": false,
+    "julia.enableCrashReporter": true,
+
+    "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+        "foreground": "#959cbd",
+        "panelTitle.activeBorder": "#3d59a1",
+        "panelTitle.activeForeground": "#bdc7f0",
+        "panelTitle.inactiveForeground": "#959cbd",
+        "tab.activeForeground": "#bdc7f0",
+        "tab.inactiveForeground": "#959cbd",
+        "breadcrumb.foreground": "#959cbd",
+        "breadcrumb.focusForeground": "#bdc7f0",
+        "breadcrumb.activeSelectionForeground": "#bdc7f0",
+        "statusBar.foreground": "#bdc7f0",
+        "list.focusForeground": "#bdc7f0",
+        "list.hoverForeground": "#bdc7f0",
+        "list.activeSelectionForeground": "#bdc7f0",
+        "list.inactiveSelectionForeground": "#bdc7f0",
+        "list.inactiveSelectionBackground": "#202330",
+        "sideBar.foreground": "#bec4db",
+        "dropdown.foreground": "#959cbd",
+        "menu.foreground":"#bdc7f0",
+        "menubar.selectionForeground":"#bdc7f0",
+        "input.foreground": "#959cbd",
+        "input.placeholderForeground": "#959cbd",
+        "activityBar.foreground": "#bdc7f0",
+        "activityBar.inactiveForeground": "#787c99",
+        "gitDecoration.ignoredResourceForeground": "#696d87",
+        "editorError.foreground":   "#ff000088",
+        "editorWarning.foreground": "#e4d87162",
+        "editorInfo.foreground":    "#00ff0088",
+        "editor.selectionBackground": "#5177a27c", //Currently SELECTED text
+        "editor.findMatchBackground": "#5177a27c" //Current SEARCH MATCH
+    },
+    "[Tokyo Night Storm]": {
+        "foreground": "#959cbd",
+        "panelTitle.activeBorder": "#3d59a1",
+        "panelTitle.activeForeground": "#bdc7f0",
+        "panelTitle.inactiveForeground": "#959cbd",
+        "tab.activeForeground": "#bdc7f0",
+        "tab.inactiveForeground": "#959cbd",
+        "breadcrumb.foreground": "#959cbd",
+        "breadcrumb.focusForeground": "#bdc7f0",
+        "breadcrumb.activeSelectionForeground": "#bdc7f0",
+        "statusBar.foreground": "#bdc7f0",
+        "list.focusForeground": "#bdc7f0",
+        "list.hoverForeground": "#bdc7f0",
+        "list.activeSelectionForeground": "#bdc7f0",
+        "list.inactiveSelectionForeground": "#bdc7f0",
+        "list.inactiveSelectionBackground": "#202330",
+        "sideBar.foreground": "#bec4db",
+        "dropdown.foreground": "#959cbd",
+        "menu.foreground":"#bdc7f0",
+        "menubar.selectionForeground":"#bdc7f0",
+        "input.foreground": "#959cbd",
+        "input.placeholderForeground": "#959cbd",
+        "activityBar.foreground": "#bdc7f0",
+        "activityBar.inactiveForeground": "#787c99",
+        "gitDecoration.ignoredResourceForeground": "#696d87",
+        "editorError.foreground":   "#ff000088",
+        "editorWarning.foreground": "#e7d53162",
+        "editorInfo.foreground":    "#00ff0088"
+    }
+},
+"julia.enableTelemetry": true,
+"explorer.autoReveal": false,
+
+"latex-workshop.latex.search.rootFiles.include":[
+    "*.tex"
+],
+"latex-workshop.latex.rootFile.useSubFile": false,
+"latex-workshop.latex.rootFile.doNotPrompt": true,
+"latex-workshop.latex.autoClean.run": "never",
+"latex-workshop.intellisense.update.aggressive.enabled": true,
+"editor.wordBasedSuggestions": "off",
+
+"[latex]": {
+    "editor.inlineSuggest.enabled": false,
+    "editor.wordWrap": "on"
+},
+"latex-workshop.latex.outDir": "%DIR%/Output",
+"latex-workshop.latex.autoBuild.run": "onFileChange",
+"latex-workshop.latex.clean.method": "glob",
+"latex-workshop.latex.build.forceRecipeUsage": false,
+"git.confirmSync": false,
+"editor.suggestSelection": "first",
+"settingsSync.ignoredSettings": [
+    "MATLAB.installPath"
+],
+"MATLAB.installPath": "/Applications/MATLAB_R2024a.app",
+"MATLAB.showFeatureNotAvailableError": false,
+"editor.accessibilitySupport": "off",
+"github.copilot.editor.enableAutoCompletions": false,
+"github.copilot.advanced": {
+
+},
+"git.openRepositoryInParentFolders": "always",
+"makefile.configureOnOpen": true,
+"latex-workshop.message.badbox.show": "none",
+"git.enableSmartCommit": true,
+"explorer.confirmPasteNative": false
+}

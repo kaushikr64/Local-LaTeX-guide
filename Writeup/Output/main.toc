@@ -2,7 +2,11 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}So why use a local version if Overleaf is this good?}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}The purpose and scope of this writeup}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}More resources}{2}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Installation and Setup}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}\LaTeX {} installation}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Using \LaTeX {} on VSCode}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Managing \LaTeX {} files locally}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Some useful features and tips for \LaTeX {} in VSCode}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}}{7}{section.3}%
 \contentsfinish 
