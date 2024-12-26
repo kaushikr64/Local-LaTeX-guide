@@ -8,5 +8,7 @@
 \contentsline {subsection}{\numberline {2.2}Using \LaTeX {} on VSCode}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Managing \LaTeX {} files locally}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Some useful features and tips for \LaTeX {} in VSCode}{5}{subsection.2.4}%
-\contentsline {section}{\numberline {3}}{7}{section.3}%
+\contentsline {subsection}{\numberline {2.5}Keeping your project synced}{6}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Integrations}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Overleaf}{7}{subsection.3.1}%
 \contentsfinish 
