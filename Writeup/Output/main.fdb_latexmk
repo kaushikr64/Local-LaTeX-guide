@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1735277307.80251 "/Users/kaushik/Desktop/Github Repos/Local-LaTeX-guide/Writeup/main.tex" "Output/main.pdf" "main" 1735277309.1816 0
+["pdflatex"] 1735277364.63977 "/Users/kaushik/Desktop/Github Repos/Local-LaTeX-guide/Writeup/main.tex" "Output/main.pdf" "main" 1735277366.10038 0
   "/Users/kaushik/Desktop/Github Repos/Local-LaTeX-guide/Writeup/main.tex" 1735277306.20068 564 14c0ba4aa302746acc001d06ded6e772 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -234,10 +234,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1722174724 5483422 a1ef07ac981a8b7f5985102f2de312a6 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1722174859 8239359 fca133aad057cd1e71c1168cfc0f5acd ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Output/main.aux" 1735277309.09599 4220 e4987ac5c2cdc10338bd6f6ee2385ed0 "pdflatex"
-  "Output/main.out" 1735277309.09884 2201 2422469ffb8d0a7c366a0e4ffac66a5c "pdflatex"
-  "Output/main.toc" 1735277309.09901 1059 4299ac500e16433145f683c014fd2a47 "pdflatex"
-  "Parts/1_Introduction/content.tex" 1735276487.02888 2503 4cbda5f8f14f57f137b45aefd6be8e05 ""
+  "Output/main.aux" 1735277366.01063 4220 e4987ac5c2cdc10338bd6f6ee2385ed0 "pdflatex"
+  "Output/main.out" 1735277366.01394 2201 2422469ffb8d0a7c366a0e4ffac66a5c "pdflatex"
+  "Output/main.toc" 1735277366.01427 1059 4299ac500e16433145f683c014fd2a47 "pdflatex"
+  "Parts/1_Introduction/content.tex" 1735277364.50533 2511 538ebd8b81ad6c3015b5e88bda2d9547 ""
   "Parts/2_Installation/content.tex" 1735275581.26107 9720 cbca620c99b3b05856c71cd828a11638 ""
   "Parts/2_Installation/graphics/Extensions.png" 1735173090.87733 128355 3f038e27ea40cdbfbeba6ac927434a57 ""
   "Parts/2_Installation/graphics/magic.png" 1735195856.72072 15899 a0f09b23189c85fadfb02e9b65282eea ""
