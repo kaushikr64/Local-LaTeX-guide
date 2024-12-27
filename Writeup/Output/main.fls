@@ -475,6 +475,10 @@ INPUT ./Parts/2_Installation/graphics/snipsnip.png
 INPUT ./Parts/3_Integrations/content.tex
 INPUT ./Parts/3_Integrations/content.tex
 INPUT Parts/3_Integrations/content.tex
+INPUT ./Parts/3_Integrations/graphics/new.png
+INPUT ./Parts/3_Integrations/graphics/new.png
+INPUT ./Parts/3_Integrations/graphics/new.png
+INPUT ./Parts/3_Integrations/graphics/new.png
 INPUT Output/main.aux
 INPUT Output/main.out
 INPUT Output/main.out
