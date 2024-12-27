@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1735276982.05387 "/Users/kaushik/Desktop/Github Repos/Local-LaTeX-guide/Writeup/main.tex" "Output/main.pdf" "main" 1735276983.60203 0
-  "/Users/kaushik/Desktop/Github Repos/Local-LaTeX-guide/Writeup/main.tex" 1735263123.58379 556 a5b71bd40bfe5f14dca9ebb539818c4b ""
+["pdflatex"] 1735277307.80251 "/Users/kaushik/Desktop/Github Repos/Local-LaTeX-guide/Writeup/main.tex" "Output/main.pdf" "main" 1735277309.1816 0
+  "/Users/kaushik/Desktop/Github Repos/Local-LaTeX-guide/Writeup/main.tex" 1735277306.20068 564 14c0ba4aa302746acc001d06ded6e772 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -234,9 +234,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1722174724 5483422 a1ef07ac981a8b7f5985102f2de312a6 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1722174859 8239359 fca133aad057cd1e71c1168cfc0f5acd ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Output/main.aux" 1735276983.50911 4327 e9615d1a8c12c6c296f1e83a937eb73c "pdflatex"
-  "Output/main.out" 1735276983.5121 2256 8c91d3be8df4e0912d209d7834fc1833 "pdflatex"
-  "Output/main.toc" 1735276983.51227 1125 63fb3717919ff26cda5ede6c24b23916 "pdflatex"
+  "Output/main.aux" 1735277309.09599 4220 e4987ac5c2cdc10338bd6f6ee2385ed0 "pdflatex"
+  "Output/main.out" 1735277309.09884 2201 2422469ffb8d0a7c366a0e4ffac66a5c "pdflatex"
+  "Output/main.toc" 1735277309.09901 1059 4299ac500e16433145f683c014fd2a47 "pdflatex"
   "Parts/1_Introduction/content.tex" 1735276487.02888 2503 4cbda5f8f14f57f137b45aefd6be8e05 ""
   "Parts/2_Installation/content.tex" 1735275581.26107 9720 cbca620c99b3b05856c71cd828a11638 ""
   "Parts/2_Installation/graphics/Extensions.png" 1735173090.87733 128355 3f038e27ea40cdbfbeba6ac927434a57 ""
@@ -245,12 +245,12 @@
   "Parts/2_Installation/graphics/snipsnip.png" 1735243093.82504 18744 18f969cbee36b91112384cf58abc6d91 ""
   "Parts/2_Installation/graphics/workspace.jpg" 1735184000.66021 679942 a47909aaefe4e476ce828751506b1444 ""
   "Parts/2_Installation/graphics/wrap.png" 1735196520.11865 54994 6fa7432a650c9f129b99942141e194d1 ""
-  "Parts/3_Integrations/content.tex" 1735276981.91706 3062 78ee46fa47bb3870a5b650eba3f0c103 ""
+  "Parts/3_Integrations/content.tex" 1735277306.19974 3036 f90791faa0b19aa6ca06cce95fd8c8ab ""
   "Parts/3_Integrations/graphics/new.png" 1735273906.00832 44767 59eec5134fee3d5c55ffbedb912628a9 ""
   "Parts/3_Integrations/graphics/reoi.png" 1735275777.11418 352895 b437ac8802bbe7a6f2dae776ec802119 ""
   "Parts/3_Integrations/graphics/sync.png" 1735275136.98416 323691 e9fbc3a0b24dffafedb5fb4ae7db1615 ""
   "Parts/preamble.tex" 1734701044.95846 4400 e450016e506c754d9258d4c39d59a503 ""
-  "main.tex" 1735263123.58379 556 a5b71bd40bfe5f14dca9ebb539818c4b ""
+  "main.tex" 1735277306.20068 564 14c0ba4aa302746acc001d06ded6e772 ""
   (generated)
   "Output/main.aux"
   "Output/main.log"
